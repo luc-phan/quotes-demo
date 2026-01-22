@@ -21,6 +21,6 @@ Usage
 -----
 
 ```
-git clone <repository-url>
+git clone https://github.com/luc-phan/quotes-demo.git
 cd quotes-demo
 ```

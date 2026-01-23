@@ -4,8 +4,9 @@ quotes-demo
 Description
 -----------
 
-- /api = Backend = An API to store quotes (Django Rest Framework)
 - / = Frontend = Next.js
+- /api = Backend = An API to store quotes (Django Rest Framework)
+- /admin = Django Admin
 - A scheduler to crawl quotes from http://quotes.toscrape.com (Airflow)
 
 Tech Stack

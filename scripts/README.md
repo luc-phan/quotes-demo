@@ -8,5 +8,6 @@ Usage
 uv sync
 cp .env.example .env
 vim .env
-uv run python try_token.py
+uv run inv check-token
+uv run inv crawl
 ```

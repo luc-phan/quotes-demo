@@ -15,6 +15,7 @@ Tech Stack
 - Python
 - Django Rest Framework
 - uv
+- React
 - Next.js
 - Airflow
 

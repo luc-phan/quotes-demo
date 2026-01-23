@@ -12,7 +12,7 @@ class Tag(models.Model):
 
 
 class Quote(models.Model):
-    text = models.TextField(max_length=2000)
+    text = models.TextField(unique=True)
     author = models.CharField(max_length=255)
     created_at = models.DateTimeField(auto_now_add=True)
     owner = models.ForeignKey(User, on_delete=models.CASCADE, related_name='quotes')

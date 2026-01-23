@@ -49,3 +49,5 @@ def crawl(c: context.Context):
         }
         post_res = requests.post(URL_BACKEND, json=data, headers=_get_headers())
         print(f"Upload {data['author']}: {post_res.status_code}")
+        if post_res.status_code != 201:
+            print(f"Failed to upload quote: {post_res.text}")

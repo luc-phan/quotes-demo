@@ -25,4 +25,9 @@ Usage
 ```
 git clone https://github.com/luc-phan/quotes-demo.git
 cd quotes-demo
+cp .env.example .env
+vim .env
+docker compose up airflow-init
+docker compose up
+docker compose down --volumes --remove-orphans
 ```

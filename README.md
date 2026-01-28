@@ -14,7 +14,7 @@ Tech Stack
 
 - Python
 - Django Rest Framework
-- Airflow
+- Airflow (in progress...)
 - React (not yet)
 - Next.js (not yet)
 
